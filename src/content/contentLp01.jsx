@@ -221,29 +221,34 @@ const contentLp01 = {
   },
   whyUs: {
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "A ESCOLHA CERTA",
+      title:
+        "Por que nos escolher para regularizar a propriedade do seu imóvel?",
     },
     cards: {
       card1: {
         icon: <Gavel width={32} height={32} />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Garanta a segurança jurídica do seu imóvel",
+        description:
+          "A usucapião é a forma legal de garantir a propriedade do imóvel que você ocupa. Com nosso suporte, você assegura que todos os trâmites sejam feitos corretamente, evitando riscos futuros e conflitos legais.",
       },
       card2: {
-        icon: <ChartNoAxesCombined width={32} height={32} />,
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: <Shield width={32} height={32} />,
+        title: "Formalização da posse de forma segura",
+        description:
+          "Regularizar a propriedade do imóvel é essencial para ter total controle sobre ele. Atuamos para que a usucapião seja concluída com respaldo jurídico, garantindo seus direitos e a tranquilidade de ter a posse reconhecida legalmente.",
       },
       card3: {
         icon: <Handshake width={32} height={32} />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Proteção patrimonial e valorização do bem",
+        description:
+          "Ter a propriedade formalizada aumenta a segurança patrimonial e valoriza o imóvel. Com a usucapião, você transforma anos de ocupação legítima em um direito reconhecido, fortalecendo seu patrimônio de forma sólida e segura.",
       },
       card4: {
-        icon: <BadgeDollarSign width={32} height={32} />,
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: <Scale width={32} height={32} />,
+        title: "Prevenção de disputas e conflitos",
+        description:
+          "Regularizar a propriedade evita desentendimentos com vizinhos, herdeiros ou terceiros interessados. Nosso acompanhamento garante que todo o processo seja transparente, minimizando conflitos e proporcionando estabilidade jurídica para você e sua família.",
       },
     },
   },
