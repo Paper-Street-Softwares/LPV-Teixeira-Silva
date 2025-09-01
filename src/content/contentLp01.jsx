@@ -23,9 +23,12 @@ const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title: "A_Definir1",
-    description: "A_Definir",
-    keywords: "A_Definir",
+    title:
+      "Teixeira Silva Advocacia | Especialista em Usucapião em Campinas - SP",
+    description:
+      "O escritório Teixeira Silva Advocacia, em Campinas - SP, oferece soluções jurídicas especializadas usucapião. Garantimos atendimento eficiente, seguro e personalizado para proteger seus direitos e formalizar a propriedade do seu imóvel.",
+    keywords:
+      "Teixeira Silva Advocacia, Advogado em Campinas, Advocacia em Campinas, Pensão Alimentícia Campinas, Usucapião Campinas, Direito de Família Campinas, Direito Imobiliário Campinas, Regularização de Imóveis Campinas, Processo de Usucapião, Ação de Pensão Alimentícia, Advogado de Família, Advogado Imobiliário, Consultoria Jurídica Campinas, Assessoria Jurídica em Campinas, Direitos dos Filhos, Regularização Patrimonial, Advogado Especialista em Usucapião, Defesa de Pensão Alimentícia, Teixeira Silva Advogado, Serviços Jurídicos em Campinas.",
   },
   hero: {
     bgImg: bgImg,
@@ -36,12 +39,13 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          A_Definir <span className="text-lpTitle"> A_Definir</span> A_Definir
-          <span className="text-lpTitle"> A_Definir</span>
+          Dificuldades em regularizar seu imóvel? Saiba como
+          <span className="text-lpTitle"> garantir sua propriedade!</span>
         </h1>
       ),
-      subtitle: "A_Definir",
-      buttonLabel: "Quero falar com um especialista",
+      subtitle:
+        "Cada caso é único, mas seus direitos são protegidos por lei. Conte com um advogado para formalizar a posse e assegurar a propriedade que é sua por direito.",
+      buttonLabel: "Regularize meu imóvel agora!",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
