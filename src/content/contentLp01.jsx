@@ -262,11 +262,18 @@ const contentLp01 = {
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: <p className="opacity-80">A_Definir</p>,
+      miniTag: "NÃO ESPERE MAIS",
+      title: "Regularize a propriedade do seu imóvel agora!",
+      subtitle: (
+        <p className="opacity-80">
+          Se você ocupa um imóvel há anos ou deseja formalizar a propriedade de
+          forma segura, podemos ajudá-lo a solicitar a usucapião de maneira
+          rápida e eficaz. Não deixe para depois—garanta hoje mesmo seus
+          direitos sobre o imóvel!
+        </p>
+      ),
     },
-    buttonLabel: "A_Definir",
+    buttonLabel: "Regularizar meu imóvel",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   contact: {
