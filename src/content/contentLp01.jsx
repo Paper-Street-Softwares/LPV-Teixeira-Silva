@@ -175,21 +175,23 @@ const contentLp01 = {
       alt: "logomarca",
     },
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "USUCAPIÃO SEGURA",
+      title: "Regularize a propriedade do seu imóvel",
     },
     paragraph: (
       <p>
-        A_Definir
+        Questões envolvendo posse e propriedade podem ser complexas, mas estou
+        aqui para garantir que seus direitos sejam respeitados. Se você ocupa um
+        imóvel há anos ou deseja formalizar a propriedade de forma segura, atuo
+        de maneira ágil e eficaz para conquistar o resultado certo para o seu
+        caso.
         <br />
         <br />
-        A_Definir
-        <br />
-        <br />
-        A_Definir
+        Minha missão é assegurar que você tenha a propriedade que lhe pertence
+        por direito. Entre em contato e saiba como posso ajudar!
       </p>
     ),
-    buttonLabel: "A_Definir",
+    buttonLabel: "Garanta a propriedade do seu imóvel agora!",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   steps: {
