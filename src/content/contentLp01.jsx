@@ -52,29 +52,111 @@ const contentLp01 = {
   },
   features: {
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "QUEM PODE REQUERER?",
+      title:
+        "Descubra quem tem direito a solicitar a usucapião e garantir a propriedade do imóvel.",
     },
     cards: {
       card1: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-house-icon lucide-house"
+          >
+            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+            <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          </svg>
+        ),
+        title: "Proprietário de imóvel abandonado",
+        description:
+          "Quem ocupa um imóvel sem oposição por um período contínuo pode solicitar a usucapião para regularizar a posse e obter a propriedade legal.",
       },
       card2: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-users-icon lucide-users"
+          >
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <circle cx="9" cy="7" r="4" />
+          </svg>
+        ),
+        title: "Herdeiros ou possuidores de terrenos familiares",
+        description:
+          "Filhos, netos ou familiares que ocupam um terreno há muitos anos podem requerer a usucapião para assegurar a titularidade do bem de forma formal.",
       },
       card3: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-building-icon lucide-building"
+          >
+            <path d="M12 10h.01" />
+            <path d="M12 14h.01" />
+            <path d="M12 6h.01" />
+            <path d="M16 10h.01" />
+            <path d="M16 14h.01" />
+            <path d="M16 6h.01" />
+            <path d="M8 10h.01" />
+            <path d="M8 14h.01" />
+            <path d="M8 6h.01" />
+            <path d="M9 22v-3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3" />
+            <rect x="4" y="2" width="16" height="20" rx="2" />
+          </svg>
+        ),
+        title: "Ocupantes de imóveis urbanos",
+        description:
+          "Quem reside em imóveis urbanos de forma contínua, pacífica e sem contestação, atendendo aos prazos da lei, pode pleitear a usucapião urbana.",
       },
       card4: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-trees-icon lucide-trees"
+          >
+            <path d="M10 10v.2A3 3 0 0 1 8.9 16H5a3 3 0 0 1-1-5.8V10a3 3 0 0 1 6 0Z" />
+            <path d="M7 16v6" />
+            <path d="M13 19v3" />
+            <path d="M12 19h8.3a1 1 0 0 0 .7-1.7L18 14h.3a1 1 0 0 0 .7-1.7L16 9h.2a1 1 0 0 0 .8-1.7L13 3l-1.4 1.5" />
+          </svg>
+        ),
+        title: "Ocupantes de imóveis rurais",
+        description:
+          "Quem ocupa terras rurais de maneira mansa e contínua, com comprovação de uso produtivo, pode solicitar a usucapião rural e obter a propriedade legal do terreno.",
       },
     },
   },
