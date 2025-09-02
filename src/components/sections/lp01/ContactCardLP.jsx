@@ -5,7 +5,7 @@ export default function ContactCardLP({ icon, label, description }) {
     <MotionDivDownToUp>
       <div className="flex flex-wrap bg-bgSectionLight p-[9px]">
         <div className="flex gap-[10px]">
-          <div className="h-[60px] w-[60px] bg-primary flex justify-center items-center text-colorBlack">
+          <div className="h-[60px] w-[60px] bg-primary flex justify-center items-center text-labelButtons">
             {icon}
           </div>
           <div className="flex flex-col justify-center text-colorBlack">

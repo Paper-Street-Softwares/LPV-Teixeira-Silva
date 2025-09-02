@@ -24,11 +24,11 @@ const currentYear = new Date().getFullYear();
 const contentLp01 = {
   infos: {
     title:
-      "Prime Trânsito Goiás | Especialistas em Recursos - Palmeiras de Goiás",
+      "Teixeira Silva Advocacia | Especialista em Usucapião em Campinas - SP",
     description:
-      "Especialistas em recursos de multas, CNH suspensa ou cassada. Atendimento jurídico personalizado em Palmeiras de Goiás com eficiência e agilidade.",
+      "O escritório Teixeira Silva Advocacia, em Campinas - SP, oferece soluções jurídicas especializadas usucapião. Garantimos atendimento eficiente, seguro e personalizado para proteger seus direitos e formalizar a propriedade do seu imóvel.",
     keywords:
-      "Recurso De Multa, Recurso De CNH Suspensa, Recurso De CNH Cassada, Advogado De Trânsito, Assessoria De Trânsito, Defesa De Multa De Trânsito, Multa Por Embriaguez, Suspensão De CNH, Cassação De CNH, Direito De Trânsito, Especialista Em Trânsito, Multas De Trânsito Goiás, CNH Suspensa Palmeiras De Goiás, CNH Cassada Palmeiras De Goiás, Recurso De Multa Em Palmeiras De Goiás, Advogado Em Palmeiras De Goiás, Prime Trânsito Goiás, Assessoria Prime Trânsito, Prime Trânsito Em Palmeiras De Goiás, Recursos Administrativos De Trânsito.",
+      "Teixeira Silva Advocacia, Advogado em Campinas, Advocacia em Campinas, Pensão Alimentícia Campinas, Usucapião Campinas, Direito de Família Campinas, Direito Imobiliário Campinas, Regularização de Imóveis Campinas, Processo de Usucapião, Ação de Pensão Alimentícia, Advogado de Família, Advogado Imobiliário, Consultoria Jurídica Campinas, Assessoria Jurídica em Campinas, Direitos dos Filhos, Regularização Patrimonial, Advogado Especialista em Usucapião, Defesa de Pensão Alimentícia, Teixeira Silva Advogado, Serviços Jurídicos em Campinas.",
   },
   hero: {
     bgImg: bgImg,
@@ -39,21 +39,22 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Seus direitos <span className="text-lpTitle"> no trânsito</span>{" "}
-          <span className="text-lpTitle"> também merecem prioridade</span>
+          Dificuldades em regularizar seu imóvel? Saiba como
+          <span className="text-lpTitle"> garantir sua propriedade!</span>
         </h1>
       ),
       subtitle:
-        "Multas indevidas, CNH suspensa, acidentes ou venda mal resolvida? Atuamos para proteger você em cada detalhe do caminho.",
-      buttonLabel: "Fale com um advogado especialista",
+        "Cada caso é único, mas seus direitos são protegidos por lei. Conte com um advogado para formalizar a posse e assegurar a propriedade que é sua por direito.",
+      buttonLabel: "Regularize meu imóvel agora!",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
   },
   features: {
     sectionHeader: {
-      miniTag: "SE SENTIU LESADO NO TRÂNSITO?",
-      title: "Descubra quando recorrer e como garantir seus direitos.",
+      miniTag: "QUEM PODE REQUERER?",
+      title:
+        "Descubra quem tem direito a solicitar a usucapião e garantir a propriedade do imóvel.",
     },
     cards: {
       card1: {
@@ -68,16 +69,15 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-off-icon lucide-shield-off"
+            class="lucide lucide-house-icon lucide-house"
           >
-            <path d="m2 2 20 20" />
-            <path d="M5 5a1 1 0 0 0-1 1v7c0 5 3.5 7.5 7.67 8.94a1 1 0 0 0 .67.01c2.35-.82 4.48-1.97 5.9-3.71" />
-            <path d="M9.309 3.652A12.252 12.252 0 0 0 11.24 2.28a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1v7a9.784 9.784 0 0 1-.08 1.264" />
+            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+            <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
           </svg>
         ),
-        title: "Multas e Infrações Indevidas",
+        title: "Proprietário de imóvel abandonado",
         description:
-          "Conteste penalidades injustas ou aplicadas por erro administrativo.",
+          "Quem ocupa um imóvel sem oposição por um período contínuo pode solicitar a usucapião para regularizar a posse e obter a propriedade legal.",
       },
       card2: {
         icon: (
@@ -91,15 +91,17 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-ban-icon lucide-ban"
+            class="lucide lucide-users-icon lucide-users"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="m4.9 4.9 14.2 14.2" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <circle cx="9" cy="7" r="4" />
           </svg>
         ),
-        title: "Suspensão e Cassação da CNH",
+        title: "Herdeiros ou possuidores de terrenos familiares",
         description:
-          "Defenda sua habilitação com estratégias administrativas e judiciais.",
+          "Filhos, netos ou familiares que ocupam um terreno há muitos anos podem requerer a usucapião para assegurar a titularidade do bem de forma formal.",
       },
       card3: {
         icon: (
@@ -113,17 +115,24 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-car-icon lucide-car"
+            class="lucide lucide-building-icon lucide-building"
           >
-            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
-            <circle cx="7" cy="17" r="2" />
-            <path d="M9 17h6" />
-            <circle cx="17" cy="17" r="2" />
+            <path d="M12 10h.01" />
+            <path d="M12 14h.01" />
+            <path d="M12 6h.01" />
+            <path d="M16 10h.01" />
+            <path d="M16 14h.01" />
+            <path d="M16 6h.01" />
+            <path d="M8 10h.01" />
+            <path d="M8 14h.01" />
+            <path d="M8 6h.01" />
+            <path d="M9 22v-3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3" />
+            <rect x="4" y="2" width="16" height="20" rx="2" />
           </svg>
         ),
-        title: "Acidentes e Indenizações",
+        title: "Ocupantes de imóveis urbanos",
         description:
-          "Busque reparação por danos materiais, morais ou corporais.",
+          "Quem reside em imóveis urbanos de forma contínua, pacífica e sem contestação, atendendo aos prazos da lei, pode pleitear a usucapião urbana.",
       },
       card4: {
         icon: (
@@ -137,51 +146,27 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-gavel-icon lucide-gavel"
+            class="lucide lucide-trees-icon lucide-trees"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
+            <path d="M10 10v.2A3 3 0 0 1 8.9 16H5a3 3 0 0 1-1-5.8V10a3 3 0 0 1 6 0Z" />
+            <path d="M7 16v6" />
+            <path d="M13 19v3" />
+            <path d="M12 19h8.3a1 1 0 0 0 .7-1.7L18 14h.3a1 1 0 0 0 .7-1.7L16 9h.2a1 1 0 0 0 .8-1.7L13 3l-1.4 1.5" />
           </svg>
         ),
-        title: "Recursos Administrativos e Judiciais",
+        title: "Ocupantes de imóveis rurais",
         description:
-          "Atuação completa para reverter decisões do DETRAN, JARI e CETRAN.",
-      },
-      card5: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-file-warning-icon lucide-file-warning"
-          >
-            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
-            <path d="M12 9v4" />
-            <path d="M12 17h.01" />
-          </svg>
-        ),
-        title: "Venda não formalizada de veículos",
-        description:
-          "Evite multas e responsabilidades por carros que já vendeu, mas continuam no seu nome.",
+          "Quem ocupa terras rurais de maneira mansa e contínua, com comprovação de uso produtivo, pode solicitar a usucapião rural e obter a propriedade legal do terreno.",
       },
     },
   },
   about: {
     bgImg: bgImg,
-    imagesGaleria: {
-      // imagem1: img1,
-      // imagem2: img2,
-      // imagem3: img3,
-    },
+    // imagesGaleria: {
+    //   imagem1: img1,
+    //   imagem2: img2,
+    //   imagem3: img3,
+    // },
     imgAbout: {
       img: imagemAbout,
     },
@@ -190,31 +175,23 @@ const contentLp01 = {
       alt: "logomarca",
     },
     sectionHeader: {
-      miniTag: "Excelência em Defesa Administrativa de Trânsito",
-      title:
-        "Comprometimento real com a proteção dos seus direitos no trânsito.",
+      miniTag: "USUCAPIÃO SEGURA",
+      title: "Regularize a propriedade do seu imóvel",
     },
     paragraph: (
       <p>
-        Atuamos com excelência em defesas jurídicas relacionadas a infrações,
-        multas, suspensão e cassação da CNH, além de outras demandas do Direito
-        de Trânsito.
+        Questões envolvendo posse e propriedade podem ser complexas, mas estou
+        aqui para garantir que seus direitos sejam respeitados. Se você ocupa um
+        imóvel há anos ou deseja formalizar a propriedade de forma segura, atuo
+        de maneira ágil e eficaz para conquistar o resultado certo para o seu
+        caso.
         <br />
         <br />
-        Nosso atendimento é personalizado e estratégico, considerando as
-        particularidades de cada caso. Unimos conhecimento técnico, experiência
-        e soluções inovadoras para alcançar resultados justos e concretos.
-        <br />
-        <br />
-        Desde o início, somos reconhecidos por uma atuação firme, próxima e
-        eficiente, sempre focados na defesa dos seus direitos.
-        <br />
-        <br />
-        Se você busca um escritório que realmente entende o seu problema e luta
-        por você, está no lugar certo.
+        Minha missão é assegurar que você tenha a propriedade que lhe pertence
+        por direito. Entre em contato e saiba como posso ajudar!
       </p>
     ),
-    buttonLabel: "Fale agora com um advogado",
+    buttonLabel: "Garanta a propriedade do seu imóvel agora!",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   steps: {
@@ -246,47 +223,32 @@ const contentLp01 = {
     sectionHeader: {
       miniTag: "A ESCOLHA CERTA",
       title:
-        "Por que somos a melhor opção para defender seus direitos no trânsito",
+        "Por que nos escolher para regularizar a propriedade do seu imóvel?",
     },
     cards: {
       card1: {
         icon: <Gavel width={32} height={32} />,
-        title: "Especialistas em Direito de Trânsito",
+        title: "Garanta a segurança jurídica do seu imóvel",
         description:
-          "Conhecemos as normas e particularidades do Código de Trânsito Brasileiro e suas implicações práticas.",
+          "A usucapião é a forma legal de garantir a propriedade do imóvel que você ocupa. Com nosso suporte, você assegura que todos os trâmites sejam feitos corretamente, evitando riscos futuros e conflitos legais.",
       },
       card2: {
-        icon: <ChartNoAxesCombined width={32} height={32} />,
-        title: "Experiência Comprovada e Atualizada",
+        icon: <Shield width={32} height={32} />,
+        title: "Formalização da posse de forma segura",
         description:
-          "Anos de atuação em defesa administrativa e judicial, com participação em congressos e eventos para estratégias eficazes.",
+          "Regularizar a propriedade do imóvel é essencial para ter total controle sobre ele. Atuamos para que a usucapião seja concluída com respaldo jurídico, garantindo seus direitos e a tranquilidade de ter a posse reconhecida legalmente.",
       },
       card3: {
         icon: <Handshake width={32} height={32} />,
-        title: "Atuação Próxima dos Órgãos e Tribunais",
+        title: "Proteção patrimonial e valorização do bem",
         description:
-          "Acompanhamos julgamentos e atualizações nas instâncias administrativas e judiciais, garantindo defesas alinhadas às últimas decisões.",
+          "Ter a propriedade formalizada aumenta a segurança patrimonial e valoriza o imóvel. Com a usucapião, você transforma anos de ocupação legítima em um direito reconhecido, fortalecendo seu patrimônio de forma sólida e segura.",
       },
       card4: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-message-square-icon lucide-message-square"
-          >
-            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
-          </svg>
-        ),
-        title: "Estratégias Personalizadas para Seu Caso",
+        icon: <Scale width={32} height={32} />,
+        title: "Prevenção de disputas e conflitos",
         description:
-          "Desenvolvemos técnicas exclusivas para reversão de multas, suspensão de CNH e outros recursos, com histórico de resultados positivos.",
+          "Regularizar a propriedade evita desentendimentos com vizinhos, herdeiros ou terceiros interessados. Nosso acompanhamento garante que todo o processo seja transparente, minimizando conflitos e proporcionando estabilidade jurídica para você e sua família.",
       },
     },
   },
@@ -300,18 +262,18 @@ const contentLp01 = {
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "NÃO PERCA TEMPO",
-      title: "Seus direitos no trânsito ao seu alcance!",
+      miniTag: "NÃO ESPERE MAIS",
+      title: "Regularize a propriedade do seu imóvel agora!",
       subtitle: (
         <p className="opacity-80">
-          Na Jonas Araújo Advocacia, estamos prontos para ajudar você a resolver
-          qualquer questão jurídica relacionada ao trânsito. Conte com uma
-          equipe especializada para proteger sua CNH, recorrer de multas e
-          garantir seus direitos com segurança e agilidade.
+          Se você ocupa um imóvel há anos ou deseja formalizar a propriedade de
+          forma segura, podemos ajudá-lo a solicitar a usucapião de maneira
+          rápida e eficaz. Não deixe para depois—garanta hoje mesmo seus
+          direitos sobre o imóvel!
         </p>
       ),
     },
-    buttonLabel: "Vamos resolver seu problema",
+    buttonLabel: "Regularizar meu imóvel",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   contact: {
@@ -380,18 +342,14 @@ const contentLp01 = {
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="lucide lucide-phone-icon lucide-phone"
+          fill="currentColor"
+          className="bi bi-whatsapp"
+          viewBox="0 0 16 16"
         >
-          <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" />
+          <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
         </svg>
       ),
-      title: "Fixo",
+      title: "Whatsapp",
       description: `(${infos.phoneSecundario.ddd}) ${infos.phoneSecundario.firstPart}-${infos.phoneSecundario.secondPart}`,
     },
   },
@@ -404,5 +362,4 @@ const contentLp01 = {
     ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
   },
 };
-
 export default contentLp01;

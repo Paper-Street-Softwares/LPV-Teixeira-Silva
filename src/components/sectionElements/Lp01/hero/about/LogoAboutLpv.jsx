@@ -6,8 +6,8 @@ function LogoAboutLpv() {
   return (
     <MotionDivDownToUp className=" w-[100%] justify-center desktop1:w-[415px] desktop2:w-[485px] flex desktop1:justify-center">
       <img
-        src={contentLp01.about.imgAbout.img}
-        alt={contentLp01.about.logo.alt}
+        src={contentLp01.hero.logo.logoImg}
+        alt={contentLp01.hero.logo.alt}
         className="w-[90%] tablet1:w-[90%] desktop1:w-full rounded-xl "
       />
     </MotionDivDownToUp>
