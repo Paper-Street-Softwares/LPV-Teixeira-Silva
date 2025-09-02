@@ -4,6 +4,7 @@ import MotionDivDownToUp from "../../../animation/MotionDivDownToUp";
 import Button from "../../../interactives/Button";
 import contentLp01 from "../../../../content/contentLp01";
 import { useNavigate } from "react-router-dom";
+import content from "../../../../content/content";
 
 function FullImg({ obs }) {
   const navigate = useNavigate();
@@ -143,6 +144,7 @@ function FullImg({ obs }) {
                       <div className="flex justify-center w-full desktop1:justify-start">
                         <MotionDivDownToUp>
                           <Button
+                          buttonLink={content.texts.links.ctaWhatsapp}
                             aria-label={
                               contentLp01.hero.textArea.ctaButtonAriaLabel
                             }
