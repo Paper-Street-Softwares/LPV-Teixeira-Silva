@@ -1,4 +1,5 @@
 import React from "react";
+import CustomTag from "../util/CustomTag";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import { getWhatsappLink } from "../util/WhatsappLink"; // Importando a função
 
@@ -13,6 +14,9 @@ export default function Button({
   size,
   sizeFeatures,
   gap,
+  removeTarget,
+  removeAnchor,
+  tagName,
   color,
   animation = true,
   colorMode,
@@ -29,6 +33,9 @@ export default function Button({
     gap = "gap-[20px]";
   }
 
+  const Animation = animation ? MotionDivDownToUp : "div";
+  const CustomTagName = removeAnchor ? "div" : tagName || "a";
+
   const buttonColors = {
     dark: "text-labelButtons",
     light: "text-labelButtons",
@@ -36,23 +43,22 @@ export default function Button({
   };
   const buttonColor = buttonColors[colorMode] || buttonColors.default;
 
-  // Se não passar link nem onClick, abre WhatsApp por padrão
-  const handleClick = () => {
-    if (onClick) {
-      onClick();
-    } else if (buttonLink) {
-      window.open(buttonLink, "_blank");
-    } else {
-      window.open(getWhatsappLink(), "_blank");
-    }
-  };
+  const shouldRedirectToWhatsapp = !buttonLink && !onClick;
+  const finalButtonLink = shouldRedirectToWhatsapp
+    ? getWhatsappLink()
+    : buttonLink;
 
   return (
-    <div className="inline-block max-w-full w-fit">
+    <CustomTag
+      tagName={CustomTagName}
+      {...(removeTarget ? {} : { target: "_blank" })}
+      {...(removeAnchor ? {} : { href: finalButtonLink })}
+      className="inline-block max-w-full w-fit"
+    >
       {animation ? (
         <MotionDivDownToUp className="w-auto">
           <button
-            onClick={handleClick}
+            onClick={onClick}
             className={`flex ${className} ${sizeFeatures} shadow-custom-opacityButton shadow-shadowHero/20 ${
               color || "bg-buttonColor"
             } flex-row items-center justify-around transition text-labelButtons desktop1:hover:scale-110`}
@@ -74,10 +80,8 @@ export default function Button({
       ) : (
         <div className="w-auto">
           <button
-            onClick={handleClick}
-            className={`flex ${className} ${sizeFeatures} shadow-custom-opacityButton shadow-shadowHero/20 ${
-              color || "bg-buttonColor"
-            } flex-row items-center justify-around transition text-labelButtons desktop1:hover:scale-110`}
+            onClick={onClick}
+            className={`flex ${className} ${sizeFeatures} shadow-custom-opacityButton shadow-shadowHero/20 bg-buttonColor flex-row items-center justify-around transition ${color} text-labelButtons desktop1:hover:scale-110`}
           >
             <div
               className={`flex items-center text-center ${gap} min-h-[24px]`}
@@ -94,6 +98,6 @@ export default function Button({
           </button>
         </div>
       )}
-    </div>
+    </CustomTag>
   );
 }

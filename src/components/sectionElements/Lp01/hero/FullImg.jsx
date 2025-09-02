@@ -144,7 +144,7 @@ function FullImg({ obs }) {
                       <div className="flex justify-center w-full desktop1:justify-start">
                         <MotionDivDownToUp>
                           <Button
-                          buttonLink={content.texts.links.ctaWhatsapp}
+                            buttonLink={content.texts.links.ctaWhatsapp}
                             aria-label={
                               contentLp01.hero.textArea.ctaButtonAriaLabel
                             }
