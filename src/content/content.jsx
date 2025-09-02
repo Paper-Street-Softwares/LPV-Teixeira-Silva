@@ -56,8 +56,8 @@ export const infos = {
   domain: "usucapiao.teixeirasilvaadvogados.com.br", // Sem "www"
   phone: {
     ddd: "19",
-    firstPart: "99844", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "8664", // Apenas os 4 últimos números
+    firstPart: "99915", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0353", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "19",
