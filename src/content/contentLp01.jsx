@@ -39,22 +39,22 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Dificuldades em regularizar seu imóvel? Saiba como
-          <span className="text-lpTitle"> garantir sua propriedade!</span>
+          Usucapião: transforme posse em
+          <span className="text-lpTitle"> propriedade definitiva!</span>
         </h1>
       ),
       subtitle:
-        "Cada caso é único, mas seus direitos são protegidos por lei. Conte com um advogado para formalizar a posse e assegurar a propriedade que é sua por direito.",
-      buttonLabel: "Regularize meu imóvel agora!",
+        "Se você mora em um imóvel há anos sem escritura, pode ter direito à propriedade por usucapião. Regularize sua situação e conquiste segurança jurídica.",
+      buttonLabel: "Quero regularizar meu imóvel por usucapião",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
   },
   features: {
     sectionHeader: {
-      miniTag: "QUEM PODE REQUERER?",
+      miniTag: "QUEM TEM DIREITO À USUCAPIÃO?",
       title:
-        "Descubra quem tem direito a solicitar a usucapião e garantir a propriedade do imóvel.",
+        "Saiba em quais situações você pode conquistar a propriedade do seu imóvel através da usucapião.",
     },
     cards: {
       card1: {
@@ -75,9 +75,9 @@ const contentLp01 = {
             <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
           </svg>
         ),
-        title: "Proprietário de imóvel abandonado",
+        title: "Imóveis abandonados",
         description:
-          "Quem ocupa um imóvel sem oposição por um período contínuo pode solicitar a usucapião para regularizar a posse e obter a propriedade legal.",
+          "Quem ocupa um imóvel abandonado, de forma pacífica e contínua, pode regularizar a posse e garantir a propriedade por usucapião.",
       },
       card2: {
         icon: (
@@ -99,9 +99,9 @@ const contentLp01 = {
             <circle cx="9" cy="7" r="4" />
           </svg>
         ),
-        title: "Herdeiros ou possuidores de terrenos familiares",
+        title: "Herdeiros e terrenos de família",
         description:
-          "Filhos, netos ou familiares que ocupam um terreno há muitos anos podem requerer a usucapião para assegurar a titularidade do bem de forma formal.",
+          "Familiares que ocupam terrenos há muitos anos, mesmo sem escritura, podem requerer a usucapião para formalizar a titularidade do bem.",
       },
       card3: {
         icon: (
@@ -130,9 +130,9 @@ const contentLp01 = {
             <rect x="4" y="2" width="16" height="20" rx="2" />
           </svg>
         ),
-        title: "Ocupantes de imóveis urbanos",
+        title: "Usucapião urbana",
         description:
-          "Quem reside em imóveis urbanos de forma contínua, pacífica e sem contestação, atendendo aos prazos da lei, pode pleitear a usucapião urbana.",
+          "Quem mora em imóveis urbanos de forma contínua, pacífica e sem contestação pode obter a propriedade legal por usucapião urbana.",
       },
       card4: {
         icon: (
@@ -156,7 +156,7 @@ const contentLp01 = {
         ),
         title: "Ocupantes de imóveis rurais",
         description:
-          "Quem ocupa terras rurais de maneira mansa e contínua, com comprovação de uso produtivo, pode solicitar a usucapião rural e obter a propriedade legal do terreno.",
+          "Quem ocupa terras rurais de forma produtiva e sem oposição tem direito de solicitar a usucapião rural e assegurar a propriedade definitiva.",
       },
     },
   },
@@ -176,22 +176,20 @@ const contentLp01 = {
     },
     sectionHeader: {
       miniTag: "USUCAPIÃO SEGURA",
-      title: "Regularize a propriedade do seu imóvel",
+      title: "Transforme posse em propriedade definitiva",
     },
     paragraph: (
       <p>
-        Questões envolvendo posse e propriedade podem ser complexas, mas estou
-        aqui para garantir que seus direitos sejam respeitados. Se você ocupa um
-        imóvel há anos ou deseja formalizar a propriedade de forma segura, atuo
-        de maneira ágil e eficaz para conquistar o resultado certo para o seu
-        caso.
+        Se você ocupa um imóvel há anos, pode ter direito à propriedade por
+        usucapião. Esse processo permite regularizar a situação do seu bem e
+        conquistar segurança jurídica.
         <br />
         <br />
-        Minha missão é assegurar que você tenha a propriedade que lhe pertence
-        por direito. Entre em contato e saiba como posso ajudar!
+        Atuo de forma ágil e estratégica para que você obtenha o reconhecimento
+        legal do que já é seu por direito.
       </p>
     ),
-    buttonLabel: "Garanta a propriedade do seu imóvel agora!",
+    buttonLabel: "Regularize seu imóvel por usucapião",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   steps: {
@@ -222,33 +220,32 @@ const contentLp01 = {
   whyUs: {
     sectionHeader: {
       miniTag: "A ESCOLHA CERTA",
-      title:
-        "Por que nos escolher para regularizar a propriedade do seu imóvel?",
+      title: "Por que escolher nosso escritório para conduzir seu usucapião?",
     },
     cards: {
       card1: {
         icon: <Gavel width={32} height={32} />,
-        title: "Garanta a segurança jurídica do seu imóvel",
+        title: "Segurança jurídica garantida",
         description:
-          "A usucapião é a forma legal de garantir a propriedade do imóvel que você ocupa. Com nosso suporte, você assegura que todos os trâmites sejam feitos corretamente, evitando riscos futuros e conflitos legais.",
+          "A usucapião é o caminho legal para conquistar a propriedade do imóvel ocupado. Com nosso suporte, você assegura que cada etapa seja cumprida corretamente, evitando riscos e problemas futuros.",
       },
       card2: {
         icon: <Shield width={32} height={32} />,
-        title: "Formalização da posse de forma segura",
+        title: "Posse reconhecida de forma definitiva",
         description:
-          "Regularizar a propriedade do imóvel é essencial para ter total controle sobre ele. Atuamos para que a usucapião seja concluída com respaldo jurídico, garantindo seus direitos e a tranquilidade de ter a posse reconhecida legalmente.",
+          "Transformamos sua posse em propriedade formalizada. Atuamos com respaldo jurídico para que seu direito seja reconhecido e registrado, trazendo tranquilidade e controle total sobre o imóvel.",
       },
       card3: {
         icon: <Handshake width={32} height={32} />,
-        title: "Proteção patrimonial e valorização do bem",
+        title: "Valorização do seu patrimônio",
         description:
-          "Ter a propriedade formalizada aumenta a segurança patrimonial e valoriza o imóvel. Com a usucapião, você transforma anos de ocupação legítima em um direito reconhecido, fortalecendo seu patrimônio de forma sólida e segura.",
+          "Regularizar o imóvel por usucapião aumenta sua segurança patrimonial e valoriza o bem. O que antes era apenas posse se torna um direito sólido e reconhecido por lei.",
       },
       card4: {
         icon: <Scale width={32} height={32} />,
         title: "Prevenção de disputas e conflitos",
         description:
-          "Regularizar a propriedade evita desentendimentos com vizinhos, herdeiros ou terceiros interessados. Nosso acompanhamento garante que todo o processo seja transparente, minimizando conflitos e proporcionando estabilidade jurídica para você e sua família.",
+          "Com a propriedade regularizada, você evita disputas com vizinhos, herdeiros ou terceiros. Nosso acompanhamento garante um processo transparente, assegurando estabilidade jurídica para você e sua família.",
       },
     },
   },
@@ -263,17 +260,17 @@ const contentLp01 = {
     bgImg: bgImg,
     sectionHeader: {
       miniTag: "NÃO ESPERE MAIS",
-      title: "Regularize a propriedade do seu imóvel agora!",
+      title: "Usucapião: regularize seu imóvel agora!",
       subtitle: (
         <p className="opacity-80">
-          Se você ocupa um imóvel há anos ou deseja formalizar a propriedade de
-          forma segura, podemos ajudá-lo a solicitar a usucapião de maneira
-          rápida e eficaz. Não deixe para depois—garanta hoje mesmo seus
-          direitos sobre o imóvel!
+          Se você ocupa um imóvel há anos, pode conquistar a propriedade
+          definitiva por usucapião. Atuamos de forma rápida e segura para
+          garantir seus direitos e formalizar a posse legal do seu bem. Não adie
+          — transforme sua posse em propriedade hoje mesmo!
         </p>
       ),
     },
-    buttonLabel: "Regularizar meu imóvel",
+    buttonLabel: "Quero regularizar por usucapião",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   contact: {
