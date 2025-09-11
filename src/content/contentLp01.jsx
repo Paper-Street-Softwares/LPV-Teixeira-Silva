@@ -75,9 +75,9 @@ const contentLp01 = {
             <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
           </svg>
         ),
-        title: "Imóveis abandonados",
+        title: "Quem comprou por contrato de gaveta",
         description:
-          "Quem ocupa um imóvel abandonado, de forma pacífica e contínua, pode regularizar a posse e garantir a propriedade por usucapião.",
+          "Quem comprou um imóvel apenas com contrato particular e nunca conseguiu registrar no cartório pode usar a usucapião para transformar essa compra em propriedade reconhecida oficialmente.",
       },
       card2: {
         icon: (
@@ -99,9 +99,9 @@ const contentLp01 = {
             <circle cx="9" cy="7" r="4" />
           </svg>
         ),
-        title: "Herdeiros e terrenos de família",
+        title: "Quem comprou por cessão de posse",
         description:
-          "Familiares que ocupam terrenos há muitos anos, mesmo sem escritura, podem requerer a usucapião para formalizar a titularidade do bem.",
+          "Quem comprou um imóvel por meio de cessão de posse e até hoje não tem matrícula em seu nome pode recorrer à usucapião para formalizar a propriedade no cartório.",
       },
       card3: {
         icon: (
@@ -130,9 +130,9 @@ const contentLp01 = {
             <rect x="4" y="2" width="16" height="20" rx="2" />
           </svg>
         ),
-        title: "Usucapião urbana",
+        title: "Quem herdou um imóvel irregular",
         description:
-          "Quem mora em imóveis urbanos de forma contínua, pacífica e sem contestação pode obter a propriedade legal por usucapião urbana.",
+          "Quem herdou um imóvel irregular de familiares, mas não fez inventário ou fez e não conseguiu registrar na matrícula, pode regularizar pela usucapião e garantir a titularidade no nome dos herdeiros.",
       },
       card4: {
         icon: (
@@ -154,9 +154,17 @@ const contentLp01 = {
             <path d="M12 19h8.3a1 1 0 0 0 .7-1.7L18 14h.3a1 1 0 0 0 .7-1.7L16 9h.2a1 1 0 0 0 .8-1.7L13 3l-1.4 1.5" />
           </svg>
         ),
-        title: "Ocupantes de imóveis rurais",
-        description:
-          "Quem ocupa terras rurais de forma produtiva e sem oposição tem direito de solicitar a usucapião rural e assegurar a propriedade definitiva.",
+        title: "Produtor rural que trabalha na terra",
+        description: (
+          <p>
+            Muitos produtores rurais vivem e produzem em terras compradas por
+            contrato particular ou herdadas, mas que seguem sem matrícula no
+            cartório. <br />
+            <br /> A usucapião pode ser o caminho para garantir a propriedade
+            definitiva, segurança jurídica para produzir, garantir crédito e
+            valorização do patrimônio.{" "}
+          </p>
+        ),
       },
     },
   },
@@ -176,20 +184,20 @@ const contentLp01 = {
     },
     sectionHeader: {
       miniTag: "USUCAPIÃO SEGURA",
-      title: "Transforme posse em propriedade definitiva",
+      title: "A usucapião pode ser o caminho para resolver a sua situação",
     },
     paragraph: (
       <p>
-        Se você ocupa um imóvel há anos, pode ter direito à propriedade por
-        usucapião. Esse processo permite regularizar a situação do seu bem e
-        conquistar segurança jurídica.
+        Quem comprou por contrato de gaveta, herdou um imóvel irregular ou mora
+        há anos sem escritura pode transformar a posse em propriedade definitiva
+        registrada em cartório.
         <br />
         <br />
-        Atuo de forma ágil e estratégica para que você obtenha o reconhecimento
-        legal do que já é seu por direito.
+        Nosso trabalho é conduzir esse processo com seriedade e clareza, para
+        que você tenha segurança, tranquilidade e valorização do seu patrimônio.
       </p>
     ),
-    buttonLabel: "Regularize seu imóvel por usucapião",
+    buttonLabel: "Regularizar meu imóvel pela usucapião",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   steps: {
@@ -220,32 +228,54 @@ const contentLp01 = {
   whyUs: {
     sectionHeader: {
       miniTag: "A ESCOLHA CERTA",
-      title: "Por que escolher nosso escritório para conduzir seu usucapião?",
+      title: "Por que escolher nosso escritório para conduzir a sua usucapião?",
     },
     cards: {
       card1: {
         icon: <Gavel width={32} height={32} />,
         title: "Segurança jurídica garantida",
-        description:
-          "A usucapião é o caminho legal para conquistar a propriedade do imóvel ocupado. Com nosso suporte, você assegura que cada etapa seja cumprida corretamente, evitando riscos e problemas futuros.",
+        description: (
+          <p>
+            A usucapião é o caminho legal para transformar um imóvel irregular
+            em propriedade formalizada.
+            <br /> <br />
+            Com nossa atuação, cada etapa será cumprida corretamente, evitando
+            riscos, atrasos e problemas futuros.
+          </p>
+        ),
       },
       card2: {
         icon: <Shield width={32} height={32} />,
-        title: "Posse reconhecida de forma definitiva",
+        title: "Posse transformada em propriedade definitiva",
         description:
-          "Transformamos sua posse em propriedade formalizada. Atuamos com respaldo jurídico para que seu direito seja reconhecido e registrado, trazendo tranquilidade e controle total sobre o imóvel.",
+          "Com a usucapião, sua posse deixa de ser apenas um documento ou contrato informal e passa a ser reconhecida oficialmente em cartório, trazendo tranquilidade e controle total sobre o imóvel.",
       },
       card3: {
         icon: <Handshake width={32} height={32} />,
         title: "Valorização do seu patrimônio",
-        description:
-          "Regularizar o imóvel por usucapião aumenta sua segurança patrimonial e valoriza o bem. O que antes era apenas posse se torna um direito sólido e reconhecido por lei.",
+        description: (
+          <p>
+            Regularizar o imóvel por usucapião aumenta sua segurança patrimonial
+            e valoriza o bem. Aumenta o valor de venda.
+            <br />
+            <br />O que antes era apenas posse passa a ser um direito sólido,
+            seguro e reconhecido por lei.
+          </p>
+        ),
       },
       card4: {
         icon: <Scale width={32} height={32} />,
-        title: "Prevenção de disputas e conflitos",
-        description:
-          "Com a propriedade regularizada, você evita disputas com vizinhos, herdeiros ou terceiros. Nosso acompanhamento garante um processo transparente, assegurando estabilidade jurídica para você e sua família.",
+        title: "Prevenção de conflitos",
+        description: (
+          <p>
+            Com a propriedade regularizada pela usucapião, você evita disputas
+            com vizinhos, herdeiros ou terceiros.
+            <br />
+            <br />
+            Nosso acompanhamento garante um processo transparente, assegurando
+            estabilidade jurídica para você e sua família.
+          </p>
+        ),
       },
     },
   },
@@ -260,17 +290,19 @@ const contentLp01 = {
     bgImg: bgImg,
     sectionHeader: {
       miniTag: "NÃO ESPERE MAIS",
-      title: "Usucapião: regularize seu imóvel agora!",
+      title:
+        "A usucapião é o passo para transformar a sua posse em propriedade definitiva.",
       subtitle: (
         <p className="opacity-80">
-          Se você ocupa um imóvel há anos, pode conquistar a propriedade
-          definitiva por usucapião. Atuamos de forma rápida e segura para
-          garantir seus direitos e formalizar a posse legal do seu bem. Não adie
-          — transforme sua posse em propriedade hoje mesmo!
+          Se você comprou, herdou ou mora em um imóvel sem escritura, pode
+          colocar o bem em seu nome de forma legal e segura.
+          <br />
+          Não adie: garanta a tranquilidade de ter seu imóvel registrado em
+          cartório.
         </p>
       ),
     },
-    buttonLabel: "Quero regularizar por usucapião",
+    buttonLabel: "Quero regularizar meu imóvel pela usucapião",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   contact: {
@@ -360,3 +392,4 @@ const contentLp01 = {
   },
 };
 export default contentLp01;
+// subir codigo
