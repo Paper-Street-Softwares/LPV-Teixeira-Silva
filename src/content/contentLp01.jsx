@@ -392,4 +392,3 @@ const contentLp01 = {
   },
 };
 export default contentLp01;
-// subir codigo
